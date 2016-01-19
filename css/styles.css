@@ -53,7 +53,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', end
 aside{
 	display: none;
 }
-@media screen and (min-width: 700px){
+@media screen and (min-width: 600px){
 	
 	main{
 		display:flex;
