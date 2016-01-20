@@ -3,12 +3,12 @@
 	margin:0;
 	font-family: 'Poppins',Arial, Helvetica, sans-serif;
 }
-header h1{
+header{
 	width:100%;
 	line-height: 3em;
 	background: #31BF0B;
 	color: white;
-	font-size: 200%;
+	font-size: 110%;
 	text-align: center;
 }
 section{
@@ -61,9 +61,10 @@ aside{
 	section{
 		display:flex;
 		flex-direction:row;
+		flex-wrap:wrap;
 	}
 	article{
-		width:33%;
+		width:30%;
 		margin:1em;
 	}
 	
@@ -74,5 +75,43 @@ aside{
 @media screen and (min-width: 1200px){
 	#contenido{
 		display:flex;
+		flex-direction:row;
 	}
+	main{
+		width: 80%;
+	}
+	aside{
+		display: block;
+		width: 20%;
+		background: #0B7410;
+	}
+	#formulario{
+		width:90%;
+		margin:1em auto;
+		background: white;
+
+
+	}
+	#formulario label{
+		display: block;
+		font-size: 110%;
+		color: #0F901B;
+		text-decoration: underline #0F901B;
+
+	}
+	#formulario input{
+		width: 95%;
+		border:none;
+		margin:3px 0;
+		font-size: 110%;
+		border-bottom: 1px solid #0DC71A;
+	}
+	#formulario .enviar{
+		background: #0DC71A;
+		color:white;
+		font-size: 110%
+	}
+
+
+
 }
