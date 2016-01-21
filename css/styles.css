@@ -72,6 +72,21 @@ aside{
 	.descripcion{
 		line-height: 5em;
 	}
+	label{
+		display: block;
+		font-size: 110%;
+		color: #0F901B;
+		text-decoration: underline #0F901B;
+
+	}
+	input{
+		width: 95%;
+		border:none;
+		margin:3px 0;
+		font-size: 110%;
+		border-bottom: 1px solid #0DC71A;
+	}
+	
 }
 @media screen and (min-width: 1200px){
 	#contenido{
@@ -95,20 +110,7 @@ aside{
 
 
 	}
-	#formulario label{
-		display: block;
-		font-size: 110%;
-		color: #0F901B;
-		text-decoration: underline #0F901B;
-
-	}
-	#formulario input{
-		width: 95%;
-		border:none;
-		margin:3px 0;
-		font-size: 110%;
-		border-bottom: 1px solid #0DC71A;
-	}
+	
 	#formulario .enviar{
 		background: #0DC71A;
 		color:white;
