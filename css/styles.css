@@ -71,6 +71,11 @@ input{
 		font-size: 110%;
 		border-bottom: 1px solid #0DC71A;
 	}
+ .enviar{
+		background: #0DC71A;
+		color:white;
+		font-size: 110%
+	}
 
 @media screen and (min-width: 600px){
 	
@@ -112,11 +117,7 @@ input{
 
 	}
 	
-	#formulario .enviar{
-		background: #0DC71A;
-		color:white;
-		font-size: 110%
-	}
+	
 	aside div{
 		width: 90%;
 		margin:1em auto;
